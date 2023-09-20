@@ -1,0 +1,66 @@
+body{
+    font-family: 'Share Tech', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(87, 87, 175);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(87, 87, 175);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-lacamento .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: rgb(121, 121, 226);
+}
+
+.section-title {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.section-title span {
+    color: rgb(87, 87, 175);
+}
+
+#sobre-a-loja,
+#lancamentos{
+    background-color: rgb(200, 200, 243);
+}
+
+.text-colored {
+    color: rgb(87, 87, 175);
+}
+
+.nav-lacamento .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(87, 87, 175);
+    color: #fff;
+}
+
+.nav-lacamento .nav-link:hover{
+    color: rgb(87, 87, 175);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
+
